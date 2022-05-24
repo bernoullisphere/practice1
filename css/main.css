@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+.contentBox {
+    max-width: 64rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#homeBanner {
+    display: flex;
+    background-color:rgb(137, 63, 255);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#homeBanner p {
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+#homeBanner button:hover {
+    box-shadow: 0em 0.5em 0.5em -0.1em rgb(51, 39, 49);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#homeMarketingInfo {
+    padding: 1.5em 1em 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#homeVideoBanner {
+    padding: 4em;
+    background-color:rgb(243, 243, 243);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#youtube-video-container {
+    position: relative;
+}
+
+#homeTestimonials {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#homeTestimonials p {
+    color: rgb(15, 16, 80)
+}
+
+#homeContact {
+    margin: 5em 0em 5em 0em;
+}
+
+.bubble {
+    width: 250px;
+    height: 250px;
+}
+
+.listheading {
+    color: rgb(15, 16, 80);
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+p.center {
+    margin: inherit;
+    max-width: 20em;
+}
+
+main > button:hover {
+    background-color: purple;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 0.8em 1em;
+    font-weight: bold;
+    border-radius: 4pt;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(137, 63, 255);
+}
+
+footer {
+    font-size:0.8em;
+    margin: auto;
+}
+
+#footerNav {
+    display: grid;
+    grid-template-areas: "one two three four";
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#footerNav li {
+    list-style: none;
+    line-height:2em;
+}
+
+#navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
+#navbar li {
+    display: inline;
+    padding: 1em;
+}
+
+h1,h2 {
+    display: block;
+    padding: 0.2em 0em 0.2em 0em;
+    color: inherit;
+    background-color: inherit;
+}
+
+.hBG {
+    background-color:rgb(2, 0, 119);
+    color: #ffffff;
+    padding: 0.18em 0.4em;
+}
+
+h3 {
+    color:rgb(15, 16, 80);
+    padding:inherit;
+    margin:inherit;
+}
+
+p {
+    font-size: 0.9em;
+    line-height:1.5em;
+}
+
+img {
+    margin: 0em 2em 0em 2em;
+}
+
+hr {
+    border-color: lightgray;
+    border-top: 1pt;
+}
+
+.disclaimer {
+    font-size: x-small;
+}
